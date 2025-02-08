@@ -9,14 +9,14 @@ The dataset consists data for IPL matches, which is preprocessed to extract ball
 
 ## Project Workflow
 ### 1. Data Extraction
-*Importing match data from YAML format
-*Converting it into a structured Pandas DataFrame
-*Creating backups at different stages for easy recovery
+- Importing match data from YAML format
+- Converting it into a structured Pandas DataFrame
+- Creating backups at different stages for easy recovery
 
 ### 2. Data Cleaning
-*Removing unnecessary columns
-*Handling missing values
-*Dropping redundant columns
+- Removing unnecessary columns
+- Handling missing values
+- Dropping redundant columns
 
 ### 3. Feature Engineering
 We extract the following features to make predictions:
