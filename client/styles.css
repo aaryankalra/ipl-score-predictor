@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
-    font-family: Arial;
+    font-family: "Inter", sans-serif;
     max-width: 600px;
     margin: 2em auto;
     padding: 1em;
     background: #f4f4f4;
 }
 
-h2 {
+h1 {
     text-align: center;
+    font-weight: 700;
+    color: #000000;
 }
 
 input,
@@ -18,11 +22,16 @@ select {
 }
 
 button {
+    margin-top: 12px;
     padding: 0.7em 2em;
-    background: #28a745;
+    background: #c1121f;
     color: white;
     border: none;
     cursor: pointer;
+}
+
+button:hover {
+    background: #a00101;
 }
 
 #result {
