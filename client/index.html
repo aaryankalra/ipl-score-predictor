@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>IPL Score Predictor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>IPL Score Predictor</h2>
+
+  <label>Batting Team</label>
+  <select id="batting_team" placeholder="Select Batting Team"></select>
+
+  <label>Bowling Team</label>
+  <select id="bowling_team"></select>
+
+  <label>City</label>
+  <select id="city"></select>
+
+  <label>Current Score</label>
+  <input type="number" id="current_score" min="0" max="250" />
+
+  <label>Overs Done</label>
+  <input type="number" id="overs_done" min="5" max="20" step="0.1" />
+
+  <label>Wickets Down</label>
+  <input type="number" id="wickets_down" min="0" max="10" />
+
+  <label>Runs in Last 5 Overs</label>
+  <input type="number" id="last_five" min="0" max="60" />
+
+  <button onclick="predict()">Predict Score</button>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
